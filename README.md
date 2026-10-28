@@ -43,10 +43,8 @@ This project explores how social media usage relates to students' academic perfo
 
 ## Dashboard 
 
-The supplied dashboard screenshot is included here: [`assets/social-media-dashboard.jpeg`](Social impact bi.jpeg).
-
-![Social media impact dashboard](Social impact bi.jpeg)
-
+The Power BI dashboard is included here: [`assets/social-media-impact-dashboard.jpeg`](assets/social-media-impact-dashboard.jpeg).
+![Social media impact dashboard](assets/social-media-impact-dashboard.jpeg)
 ## Data Preparation in Power Query
 
 1. Import the CSV using **Home → Get Data → Text/CSV → Transform Data**.
