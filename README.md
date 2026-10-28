@@ -41,10 +41,9 @@ This project explores how social media usage relates to students' academic perfo
 | `Academic_Performance_GPA` | Student GPA |
 | `Overall_Impact` | Reported overall impact category |
 
-## Dashboard 
+## Dashboard Preview
+![Social Media Impact Overview](Social_impact.jpeg)
 
-The Power BI dashboard is included here: [`assets/social-media-impact-dashboard.jpeg`](assets/social-media-impact-bi.jpeg).
-![Social media impact dashboard](assets/social-media-impact-bi.jpeg)
 ## Data Preparation in Power Query
 
 1. Import the CSV using **Home → Get Data → Text/CSV → Transform Data**.
@@ -144,16 +143,6 @@ These values are calculated directly from the original CSV before imputation.
 - Daily usage is negatively correlated with GPA (`r = -0.710`) and sleep duration (`r = -0.716`).
 - Daily usage is positively correlated with perceived stress (`r = 0.754`) and negatively correlated with the mental-health index (`r = -0.850`).
 
-## Dashboard Comparison
 
-| Dashboard item | Screenshot | CSV | Result |
-|---|---:|---:|---|
-| Count of `Student_ID` | 4.5K | 4,500 | Matches |
-| Average daily usage | 5.30 | 5.2959 → 5.30 | Matches |
-| Average academic performance | 3.43 | 3.4293 → 3.43 | Matches |
-| Platform counts | Instagram 1,453; TikTok 1,226; YouTube 818; Snapchat 472; Reddit 229; X 206; LinkedIn 96 | Same counts | Matches |
-| Age distribution | Highest at age 18 | Age 18 has 1,028 students | Matches |
-| Gender distribution | Female largest, Male second | Female 2,234; Male 2,051 | Matches |
 
-The screenshot chart titled **“Count of Device_Type by Primary_Platform”** appears to show platform counts rather than device counts. Rename it to **“Count of Students by Primary Platform”** or change the visual to use `Device_Type`.
 
