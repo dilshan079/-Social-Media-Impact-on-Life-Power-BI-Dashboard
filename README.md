@@ -16,7 +16,7 @@ This project explores how social media usage relates to students' academic perfo
 
   ## Dataset
 
-**Source file:** [`data/Social_media_impact_on_life.csv`](data/Social_media_impact_on_life.csv)
+**Source file:** [`data/Social_media_impact_on_life.csv`](Social_media_impact_on_life.csv)
 
 - **Rows:** 4,500
 - **Columns:** 16
@@ -43,9 +43,9 @@ This project explores how social media usage relates to students' academic perfo
 
 ## Dashboard 
 
-The supplied dashboard screenshot is included here: [`assets/social-media-dashboard.jpeg`](assets/social-media-dashboard.jpeg).
+The supplied dashboard screenshot is included here: [`assets/social-media-dashboard.jpeg`](Social impact bi.jpeg).
 
-![Social media impact dashboard](assets/social-media-dashboard.jpeg)
+![Social media impact dashboard](Social impact bi.jpeg)
 
 ## Data Preparation in Power Query
 
